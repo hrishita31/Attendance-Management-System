@@ -10,4 +10,10 @@ In this project, I have created an attendance management system using golang and
 # Project Structure
 1. main.go :  Contains the main application code
 2. docker-compose.yaml : Configuration file for docker compose for mongoDB
-3. 
+3. infra.go : Infrastructure set up of MongoDB
+4. model.go : Data models
+5. router.go : Router configuration, contains API paths
+6. handler.go : Handles requests from router
+7. service.go : Provides Business logic for handler
+
+
